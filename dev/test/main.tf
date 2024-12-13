@@ -5,7 +5,7 @@
 module "base" {
   source           = "../../modules/base"
   location         = "eastus"
-  site_id          = "iacgh"
+  site_id          = "iacgh-jundachen"
   domain_fqdn      = "jumpstart.local"
   starting_address = "192.168.1.55"
   ending_address   = "192.168.1.65"
