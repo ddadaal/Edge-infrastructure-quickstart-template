@@ -12,7 +12,7 @@ module "base" {
   default_gateway  = "192.168.1.1"
   dns_servers      = ["192.168.1.254"]
   adou_suffix      = "DC=jumpstart,DC=local"
-  dc_ip            = "192.168.1.1"
+  dc_ip            = "192.168.1.254"
   servers = [
     {
       name        = "AzSHOST1",
